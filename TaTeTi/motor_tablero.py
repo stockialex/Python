@@ -35,27 +35,3 @@ class Tablero:
     def diagonal_inversa_con_fichas_iguales(self):
         return(not(self.es_coordenada_vacia(0,2)) and self.obtener_coordenada(0,2) == self.obtener_coordenada(1,1) and 
         self.obtener_coordenada(1,1) == self.obtener_coordenada(2,0))
-
-    # hacer conversion a STR
-    
-    #def __str__(self):
-     #   plantilla = {}
-
-
-
-
-    # # NO SIRVE. Busca en casi todos los casillero y desencadena en resultados
-    # no deseados
-    # def iteracion_fila_columna(self, fila = 0, columna = 0):
-    #    esta_ocupada = True
-    #    for i in range(fila, i <= 2):
-    #        for j in range(columna, j <= 2):
-    #            if(self.es_coordenada_vacia(i,j)):
-    #                esta_ocupada = False
-    #                break
-    #    return esta_ocupada 
-
-
-        
-
-    
